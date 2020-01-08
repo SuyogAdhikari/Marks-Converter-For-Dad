@@ -7,7 +7,7 @@ int main()
     float number;
     float  InitialPercent, Obtained;
     int InitialMarks, FinalMarks;
-	int FinalFullMarks, FinalFullMarks;
+	int InitialFullMarks, FinalFullMarks;
     
     printf("Enter Initial Full Marks : ");
     scanf("%d",&InitialFullMarks);
