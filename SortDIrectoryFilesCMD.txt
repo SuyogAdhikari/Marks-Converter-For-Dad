@@ -1,0 +1,7 @@
+$Files = gci {{DIRECTORY}} -Filter *.docs -file
+
+for ($i = 0; $i -lt $Files.count; $i++){
+
+ Rename-Item -Path $Files[$i].FullName -NewName ("$i " + $Files[$i].Name)
+
+}
